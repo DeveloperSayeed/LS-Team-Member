@@ -1,0 +1,23 @@
+.card ul{
+    align-items: center;
+}
+.card ul li{
+    list-style: none;
+}
+.card ul li a {
+	width: 30px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: red;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 12px;
+    transition: .5s;
+}
+
+.card ul li a:hover{
+    background-color: #333;
+	border: 1px solid red;
+}
